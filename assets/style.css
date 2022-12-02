@@ -1,0 +1,43 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-contaienr {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+.card-container > * {
+  margin: 0.5rem;
+}
+
+.card {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+.card-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.upload-card-form {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 2rem;
+}
+
+.upload-card-form > * {
+  margin: 0.5rem;
+}
+
+.img-upload {
+  display: none;
+}
